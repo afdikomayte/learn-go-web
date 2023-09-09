@@ -31,3 +31,19 @@ project_folder
  |  |   |   |
  |
 ```
+📦learn-go-web
+ ┣ 📂config
+ ┃ ┣ 📜database.go
+ ┃ ┗ 📜database_test.go
+ ┣ 📂customer
+ ┃ ┣ 📂application
+ ┃ ┃ ┗ 📂query
+ ┃ ┣ 📂domain
+ ┃ ┗ 📂infrastructure
+ ┃ ┃ ┗ 📂mysql
+ ┣ 📂handler
+ ┃ ┗ 📜handler_customer.go
+ ┣ 📜README.md
+ ┣ 📜go.mod
+ ┣ 📜go.sum
+ ┗ 📜main.go
