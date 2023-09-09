@@ -7,7 +7,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func GetConnetionMysql() *sql.DB {
+func GetConnectionMysql() *sql.DB {
 	db, err := sql.Open("mysql", "roo:Password#db1@tcp(localhost:3306)/go_mysql?parseTime=true")
 	if err != nil {
 		panic(err)
