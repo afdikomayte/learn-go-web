@@ -31,3 +31,4 @@ project_folder
  |  |   |   |
  |  |   |   |--entity_name.html
  |  |   |   |
+|
