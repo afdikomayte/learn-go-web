@@ -20,3 +20,4 @@ func GetConnectionMysql() *sql.DB {
 
 	return db
 }
+
