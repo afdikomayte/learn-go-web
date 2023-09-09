@@ -2,7 +2,7 @@
 learn basic web in golang
 
 # structur project
-
+```bash
 project_folder
  |
  |--module_folder
@@ -29,4 +29,4 @@ project_folder
  |  |   |   |
  |  |   |   |--entity_name.html
  |  |   |   |
-
+```
