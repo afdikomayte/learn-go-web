@@ -1,6 +1,8 @@
 # learn-go-web
 learn basic web in golang
 
+
+
 # structur project
 
 project_folder
@@ -29,5 +31,3 @@ project_folder
  |  |   |   |
  |  |   |   |--entity_name.html
  |  |   |   |
-
-
