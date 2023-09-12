@@ -8,7 +8,7 @@ import (
 )
 
 func GetConnectionMysql() *sql.DB {
-	db, err := sql.Open("mysql", "roo:Password#db1@tcp(localhost:3306)/go_mysql?parseTime=true")
+	db, err := sql.Open("mysql", "root:Password#db1@tcp(localhost:3306)/go_mysql?parseTime=true")
 	if err != nil {
 		panic(err)
 	}
@@ -20,4 +20,3 @@ func GetConnectionMysql() *sql.DB {
 
 	return db
 }
-
